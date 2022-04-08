@@ -3,11 +3,14 @@ import random
 
 class Cpc:
     alias = '老八'
+
     def burgerKing(self):
         return "秘制老八小汉堡，既美味又管饱"
+
     def response(self):
         sentences = ['啊对对对', '桥洞底下盖小被']
-        return sentences[random.randint(0,len(sentences) - 1)]
+        return sentences[random.randint(0, len(sentences) - 1)]
+
 
 cpc = Cpc()
 
